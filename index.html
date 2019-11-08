@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Multiple Instance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue"></script>
+
+</head>
+
+<body>
+    <h1>Vue Multiple Instance</h1>
+
+    <div id="app">
+        {{title}}<br>
+        <input type="text" ref="input_ref"><br><br>
+        <input type="file" ref="file_ref"><br><br>
+        <button @click="getRefs">Get ress</button><br><br>
+        Your  Favourite Foods:{{foods}}
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
